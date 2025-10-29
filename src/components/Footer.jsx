@@ -7,13 +7,13 @@ const Footer = () => {
             <div className="mb-4">
               <div className="flex items-center space-x-3 mb-3">
                 <img 
-                  src="/IUCCA_Logo[1].png" 
+                  src="./IUCCA_Logo[1].png" 
                   alt="IUCAA Logo" 
                   className="h-10 w-auto"
                 />
                 <div className="w-px h-8 bg-border/50"></div>
                 <img 
-                  src="/GLA_University_logo.png" 
+                  src="./GLA_University_logo.png" 
                   alt="GLA University Logo" 
                   className="h-8 w-auto"
                 />

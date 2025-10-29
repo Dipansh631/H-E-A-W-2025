@@ -7,13 +7,13 @@ const TopPage = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-10">
             <img 
-              src="/GLA_University_logo.png" 
+              src="./GLA_University_logo.png" 
               alt="GLA University Logo" 
               className="h-32 w-auto"
             />
             <div className="w-px h-28 bg-border/50"></div>
             <img 
-              src="/IUCCA_Logo[1].png" 
+              src="./IUCCA_Logo[1].png" 
               alt="IUCAA Logo" 
               className="h-36 w-auto"
             />

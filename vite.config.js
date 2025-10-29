@@ -6,6 +6,19 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   base: './',
+  build: {
+    target: 'es2015',
+    outDir: 'dist',
+    assetsDir: 'assets',
+    minify: 'esbuild',
+    rollupOptions: {
+      output: {
+        format: 'iife',
+        inlineDynamicImports: true,
+        manualChunks: undefined,
+      },
+    },
+  },
   server: {
     host: "::",
     port: 8080,
